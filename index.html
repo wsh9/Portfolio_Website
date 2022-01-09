@@ -2,13 +2,310 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cláudio Pinto // Portfolio</title>
 
-    <link rel="stylesheet" href="main.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <p>ola</p>
+    <!-- START navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- navbar header -->
+        <div class="nav-header">
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- navbar links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="#section-about">about</a>
+          </li>
+          <li>
+            <a href="#section-projects">projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END navbar -->
+
+    <!-- START sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- navbar links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">back to home</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.facebook.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.squarespace.com" class="social-icon">
+              <i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.behance.com" class="social-icon">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- END sidebar -->
+
+    <!-- START header -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>i'm cláudio</h1>
+          <h4>visual artist</h4>
+          <a href="#section-about" class="btn hero-btn">about me</a>
+          <!-- social icons -->
+          <ul class="social-icons hero-icons">
+            <li>
+              <a href="https://www.facebook.com" class="social-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.squarespace.com" class="social-icon">
+                <i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.com" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="hero-img">
+          <img src="images/hero-img.jpg" class="hero-photo" alt="" />
+        </article>
+      </div>
+    </header>
+    <!-- END header -->
+
+    <!-- START about -->
+    <section class="section about" id="section-about">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img src="images/hero-img2.jpg" class="hero-photo" alt="about img" />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- START section title -->
+          <div class="section-title about-title">
+            <h2>about me</h2>
+            <div class="underline"></div>
+          </div>
+          <!-- END section title -->
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quos
+            totam dolore voluptatibus quasi praesentium quod placeat! Facere sit
+            explicabo iusto magnam quibusdam, quidem nesciunt dolore dolorem
+            unde, ab animi.
+          </p>
+          <a href="claudio.nn.pinto@gmail.com" class="btn">contact me</a>
+        </article>
+      </div>
+    </section>
+    <!-- END about -->
+
+    <!-- START services -->
+    <section class="section bg-grey">
+      <!-- START section title -->
+      <div class="section-title">
+        <h2>main skills</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- END section title -->
+      <div class="services-center section-center">
+        <!-- START #1 service -->
+        <article class="service">
+          <i class="fas fa-camera service-icon"> </i>
+          <h4>video making & editing</h4>
+          <div class="underline"></div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus labore cumque quam, ullam mollitia eos consectetur
+            corporis incidunt quia tempora odio molestiae laboriosam corrupti
+            ipsa, est illum hic nihil quisquam.
+          </p>
+        </article>
+        <!-- END #1 service -->
+        <!-- START #2 service -->
+        <article class="service">
+          <i class="fab fa-sketch service-icon"> </i>
+          <h4>branding design</h4>
+          <div class="underline"></div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus labore cumque quam, ullam mollitia eos consectetur
+            corporis incidunt quia tempora odio molestiae laboriosam corrupti
+            ipsa, est illum hic nihil quisquam.
+          </p>
+        </article>
+        <!-- END #2 service -->
+        <!-- START #3 service -->
+        <article class="service">
+          <i class="fas fa-code service-icon"> </i>
+          <h4>web design & development</h4>
+          <div class="underline"></div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus labore cumque quam, ullam mollitia eos consectetur
+            corporis incidunt quia tempora odio molestiae laboriosam corrupti
+            ipsa, est illum hic nihil quisquam.
+          </p>
+        </article>
+        <!-- END #3 service -->
+      </div>
+    </section>
+    <!-- END services -->
+
+    <!-- START projects -->
+    <section class="section projects" id="section-projects">
+      <!-- START section title -->
+      <div class="section-title">
+        <h2>projects</h2>
+        <div class="underline"></div>
+        <p class="projects-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+          consequuntur quisquam fugit sint ut unde officia commodi adipisci
+          praesentium ea enim fuga laborum quae sapiente cupiditate voluptates
+          velit nulla corporis?
+        </p>
+      </div>
+      <!-- END section title -->
+      <div class="section-center projects-center">
+        <!-- START #1 project -->
+        <a href="projects.html" class="project-1">
+          <article class="project">
+            <img
+              src="images/project-1.jpeg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>project text</p>
+            </div>
+          </article>
+        </a>
+        <!-- END #1 project -->
+        <!-- START #2 project -->
+        <a href="projects.html" class="project-2">
+          <article class="project">
+            <img
+              src="images/project-2.jpeg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>project text</p>
+            </div>
+          </article>
+        </a>
+        <!-- END #2 project -->
+        <!-- START #3 project -->
+        <a href="projects.html" class="project-3">
+          <article class="project">
+            <img
+              src="images/project-3.jpeg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>project text</p>
+            </div>
+          </article>
+        </a>
+        <!-- END #3 project -->
+      </div>
+    </section>
+    <!-- END projects -->
+
+    <!-- START footer -->
+    <div class="footer">
+      <!-- social icons -->
+      <ul class="social-icons hero-icons">
+        <li>
+          <a href="https://www.facebook.com" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.squarespace.com" class="social-icon">
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.behance.com" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <p>&copy; <span id="date"></span> cláudio pinto . all rights reserved</p>
+    </div>
+    <!-- END footer -->
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
